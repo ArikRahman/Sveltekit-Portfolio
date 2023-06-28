@@ -1,5 +1,5 @@
 <header>
-    <h1>Dr. Christopher I. G. Lanclos</h1>
+    <h1>Arik Rahman</h1>
     <!-- <p>Senior Research Engineer</p> -->
 
 

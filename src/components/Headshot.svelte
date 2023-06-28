@@ -1,4 +1,4 @@
-<img src="https://media.discordapp.net/attachments/988509700054188072/1123681565659115601/Chris_Lanclos_Headshot.jpg">
+<img src="https://media.licdn.com/dms/image/D5603AQGQCffHl8shGQ/profile-displayphoto-shrink_800_800/0/1683310419377?e=1693440000&v=beta&t=07_hwdI2xn2--0Mgx7zV2ininJ2YYwRK3cEOwH4ODgg">
 
 <style>
     img {
