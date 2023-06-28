@@ -5,8 +5,9 @@ declare global {
 		// interface Error {}
 		// interface Locals {}
 		interface Platform {
-			env: {
-				COUNTER: DurableObjectNamespace;
+			env?: {
+				YOUR_KV_NAMESPACE: KVNamespace;
+				YOUR_DURABLE_OBJECT_NAMESPACE: DurableObjectNamespace;
 			};
 
 			context: {
