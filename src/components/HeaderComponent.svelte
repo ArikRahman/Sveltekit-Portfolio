@@ -1,5 +1,5 @@
 <header>
-    <h1>Arik Rahman</h1>
+    <h1>Arik something else</h1>
     <!-- <p>Senior Research Engineer</p> -->
 
 
@@ -15,7 +15,7 @@
     color: white;
     text-align: center;
     /* position: fixed; */
-    position: relative;
+    position:relative;
     top: 0;
     overflow: auto;
     @include transition(all .5s ease);

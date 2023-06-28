@@ -3,6 +3,7 @@
     <a href="/about">About</a>
     <a href="/cv">CV</a>
     <a href="/contact">Contact</a>
+    
 </div> 
 
 
@@ -14,9 +15,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
     width: 100%;
     background-color: rgb(80,0,0);
     overflow: auto;
+    position:sticky;
+    top:0
 }
 
 .navbar a {
+    position:sticky;
     float: left;
     padding: 12px;
     color: white;
@@ -27,10 +31,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .navbar a:hover {
+    position:sticky;
     background-color: rgb(120,0,0);
 }
 
 .navbar a.active {
+    position:sticky;
     background-color: rgb(80, 0, 0);
 }
 
@@ -40,6 +46,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: block;
     width: 100%;
     text-align: left;
+    position:sticky;
     }
 }
 </style>

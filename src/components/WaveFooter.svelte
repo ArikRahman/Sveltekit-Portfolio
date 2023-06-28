@@ -25,8 +25,8 @@
             </a></li>
         </ul>
         <ul class="menu">
-        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+        <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="/about">About</a></li>
         <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
         <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
         <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
