@@ -27,9 +27,9 @@
         <ul class="menu">
         <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
         <li class="menu__item"><a class="menu__link" href="/about">About</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+        <li class="menu__item"><a class="menu__link" href="/CV">CV</a></li>
+        <!-- <li class="menu__item"><a class="menu__link" href="#">Team</a></li> -->
+        <li class="menu__item"><a class="menu__link" href="/contact">Contact</a></li>
 
         </ul>
         <p>&copy;2023 Arik Rahman | All Rights Reserved</p>
@@ -50,22 +50,24 @@
         padding: 0;
         box-sizing: border-box;
         font-family: "Poppins", sans-serif;
+        left: 0px;
+        bottom:0;
         }
 
         body {
         display: flex;
-        background: #333;
+        background: rgb(80,0,0);
         justify-content: flex-end;
         align-items: flex-end;
-        min-height: 100vh;
+        min-height: 50vh;
         }
 
         .footer {
-        position: relative;
+        position: sticky;
         width: 100%;
         background: #3586ff;
         min-height: 100px;
-        padding: 20px 50px;
+        padding: 0% 5%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -78,7 +80,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 10px 0;
+        margin: 5px 0;
         flex-wrap: wrap;
         }
 

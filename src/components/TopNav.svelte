@@ -16,7 +16,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
     background-color: rgb(80,0,0);
     overflow: auto;
     position:sticky;
-    top:0
+    top:0;
+    left:0;
 }
 
 .navbar a {
@@ -28,6 +29,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     font-size: 17px;
     width: 25%; /* Four links of equal widths */
     text-align: center;
+    left:0;
 }
 
 .navbar a:hover {

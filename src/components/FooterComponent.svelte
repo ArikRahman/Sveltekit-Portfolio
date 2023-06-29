@@ -8,7 +8,7 @@
 <style>
     footer {
     position: fixed;
-    left: 0;
+    /* left: 2.5%; */
     bottom: 0;
     width: 100%;
     background-color: rgb(80,0,0);

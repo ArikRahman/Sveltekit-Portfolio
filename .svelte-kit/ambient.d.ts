@@ -60,6 +60,7 @@ declare module '$env/static/private' {
 	export const XAUTHORITY: string;
 	export const SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
+	export const GJS_DEBUG_TOPICS: string;
 	export const VSCODE_INJECTION: string;
 	export const GDM_LANG: string;
 	export const HOME: string;
@@ -78,6 +79,7 @@ declare module '$env/static/private' {
 	export const CHROME_DESKTOP: string;
 	export const STEAM_FRAME_FORCE_CLOSE: string;
 	export const npm_lifecycle_script: string;
+	export const GJS_DEBUG_OUTPUT: string;
 	export const MODULEPATH_ROOT: string;
 	export const MOZ_GMP_PATH: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
@@ -189,6 +191,7 @@ declare module '$env/dynamic/private' {
 		XAUTHORITY: string;
 		SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
+		GJS_DEBUG_TOPICS: string;
 		VSCODE_INJECTION: string;
 		GDM_LANG: string;
 		HOME: string;
@@ -207,6 +210,7 @@ declare module '$env/dynamic/private' {
 		CHROME_DESKTOP: string;
 		STEAM_FRAME_FORCE_CLOSE: string;
 		npm_lifecycle_script: string;
+		GJS_DEBUG_OUTPUT: string;
 		MODULEPATH_ROOT: string;
 		MOZ_GMP_PATH: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
