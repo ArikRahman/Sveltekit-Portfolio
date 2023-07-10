@@ -58,8 +58,8 @@ declare module '$env/static/private' {
 	export const GTK_MODULES: string;
 	export const XDG_SEAT: string;
 	export const PWD: string;
-	export const XDG_SESSION_DESKTOP: string;
 	export const LOGNAME: string;
+	export const XDG_SESSION_DESKTOP: string;
 	export const QSYS_ROOTDIR: string;
 	export const XDG_SESSION_TYPE: string;
 	export const DRAWHOME: string;
@@ -73,11 +73,10 @@ declare module '$env/static/private' {
 	export const VSCODE_INJECTION: string;
 	export const GTK2_RC_FILES: string;
 	export const HOME: string;
-	export const LC_PAPER: string;
 	export const LANG: string;
+	export const LC_PAPER: string;
 	export const XDG_CURRENT_DESKTOP: string;
 	export const npm_package_version: string;
-	export const LOCAL_GIT_DIRECTORY: string;
 	export const GIT_ASKPASS: string;
 	export const XDG_SEAT_PATH: string;
 	export const INVOCATION_ID: string;
@@ -85,8 +84,8 @@ declare module '$env/static/private' {
 	export const INIT_CWD: string;
 	export const CSF_ShadersDirectory: string;
 	export const DOTNET_BUNDLE_EXTRACT_BASE_DIR: string;
-	export const CSF_EXCEPTION_PROMPT: string;
 	export const CHROME_DESKTOP: string;
+	export const CSF_EXCEPTION_PROMPT: string;
 	export const CSF_XmlOcafResource: string;
 	export const KDE_SESSION_UID: string;
 	export const npm_lifecycle_script: string;
@@ -129,8 +128,8 @@ declare module '$env/static/private' {
 	export const CSF_XSMessage: string;
 	export const XCURSOR_THEME: string;
 	export const MMGT_CLEAR: string;
-	export const KDE_FULL_SESSION: string;
 	export const GDK_BACKEND: string;
+	export const KDE_FULL_SESSION: string;
 	export const npm_config_noproxy: string;
 	export const PATH: string;
 	export const npm_config_metrics_registry: string;
@@ -209,8 +208,8 @@ declare module '$env/dynamic/private' {
 		GTK_MODULES: string;
 		XDG_SEAT: string;
 		PWD: string;
-		XDG_SESSION_DESKTOP: string;
 		LOGNAME: string;
+		XDG_SESSION_DESKTOP: string;
 		QSYS_ROOTDIR: string;
 		XDG_SESSION_TYPE: string;
 		DRAWHOME: string;
@@ -224,11 +223,10 @@ declare module '$env/dynamic/private' {
 		VSCODE_INJECTION: string;
 		GTK2_RC_FILES: string;
 		HOME: string;
-		LC_PAPER: string;
 		LANG: string;
+		LC_PAPER: string;
 		XDG_CURRENT_DESKTOP: string;
 		npm_package_version: string;
-		LOCAL_GIT_DIRECTORY: string;
 		GIT_ASKPASS: string;
 		XDG_SEAT_PATH: string;
 		INVOCATION_ID: string;
@@ -236,8 +234,8 @@ declare module '$env/dynamic/private' {
 		INIT_CWD: string;
 		CSF_ShadersDirectory: string;
 		DOTNET_BUNDLE_EXTRACT_BASE_DIR: string;
-		CSF_EXCEPTION_PROMPT: string;
 		CHROME_DESKTOP: string;
+		CSF_EXCEPTION_PROMPT: string;
 		CSF_XmlOcafResource: string;
 		KDE_SESSION_UID: string;
 		npm_lifecycle_script: string;
@@ -280,8 +278,8 @@ declare module '$env/dynamic/private' {
 		CSF_XSMessage: string;
 		XCURSOR_THEME: string;
 		MMGT_CLEAR: string;
-		KDE_FULL_SESSION: string;
 		GDK_BACKEND: string;
+		KDE_FULL_SESSION: string;
 		npm_config_noproxy: string;
 		PATH: string;
 		npm_config_metrics_registry: string;

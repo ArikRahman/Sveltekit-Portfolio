@@ -3,7 +3,7 @@
 
 </HeaderComponent> -->
 <GptInspiredHeader></GptInspiredHeader>
-
+<Login></Login>
 <!-- 
 <TopNav>
 </TopNav> -->
@@ -20,4 +20,5 @@
     import WaveFooter from "../components/WaveFooter.svelte";
     import GptInspiredFooter from "../components/GPTInspiredFooter.svelte";
     import GptInspiredHeader from "../components/GPTInspiredHeader.svelte";
+    import Login from "../components/Login.svelte";
 </script>
