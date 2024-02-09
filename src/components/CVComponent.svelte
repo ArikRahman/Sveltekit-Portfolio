@@ -26,7 +26,9 @@ body{
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="https://media.licdn.com/dms/image/D5603AQGQCffHl8shGQ/profile-displayphoto-shrink_800_800/0/1683310419377?e=1693440000&v=beta&t=07_hwdI2xn2--0Mgx7zV2ininJ2YYwRK3cEOwH4ODgg" style="width:100%" alt="Avatar">
+          <!-- <img src="https://media.licdn.com/dms/image/D5603AQHVU1tWJOdjcg/profile-displayphoto-shrink_200_200/0/1692420336007?e=1712793600&v=beta&t=DD1Vqswkl3AHqghGN6JsCO5bgEwru1xJWo_R9uRXt5Q" style="width:90%" alt="Avatar"> -->
+          <img src="https://media.licdn.com/dms/image/D5603AQHVU1tWJOdjcg/profile-displayphoto-shrink_200_200/0/1692420336007?e=1712793600&v=beta&t=DD1Vqswkl3AHqghGN6JsCO5bgEwru1xJWo_R9uRXt5Q" style="width:90%; border-radius: 50%; object-fit: cover; object-position: top; height: auto; display: block;" alt="Avatar">
+
           <div class="w3-display-bottomleft w3-container w3-text-black">
             <!-- <h2>Jane Doe</h2> -->
           </div>
@@ -79,50 +81,58 @@ body{
     <!-- End Left Column -->
     </div>
 
-    <!-- Right Column -->
     <div class="w3-twothird">
-    
+
+      <!-- Work Experience -->
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge" style="color:rgb(80,0,0);"></i>Work Experience</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h5 class="w3-opacity"><b>Research Assistant / TEES Cybersecurity Center</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2022 - Present</h6>
+          <p>Setup automated dynamic analysis in Xen virtualized environments. Developed in-house scientific gateway with public-facing API hosted at the Texas A&M Cyber Range. Collaborated with a team of 4 on Github using a SCRUM workflow. Processed thousands of malware for the purpose of dynamic analysis. Worked with virtualized environments on different networks.</p>
           <hr>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-        </div>
+        <!-- Other positions can be added here following the same structure -->
+    
       </div>
-
+    
+      <!-- Education -->
       <div class="w3-container w3-card w3-white">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
+          <h5 class="w3-opacity"><b>Texas A&M University</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug. 2021 - May 2025</h6>
+          <p>Bachelor of Science in Electronic Systems Engineering Technology. Minor in Cybersecurity, VICEROY recipient.</p>
           <hr>
         </div>
+        <!-- Additional education entries can follow the same format -->
+      </div>
+    
+      <!-- Projects -->
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-th fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>London Business School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
+          <h5 class="w3-opacity"><b>Science Gateway</b></h5>
+          <p>Created a responsive website hosted at the Texas Cyber Range using Sveltekit, Node, Nginx, and CouchbaseDB. Secured connection between gateway and the database.</p>
           <hr>
         </div>
+        <!-- Other projects can be added here -->
+      </div>
+    
+      <!-- Technical Skills -->
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Technical Skills</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
+          <p>
+            <strong>Coursework:</strong> Calculus III, Linear Algebra, Data Structures and Algorithms, Lean Six Sigma <br>
+            <strong>Languages:</strong> Java, Python, C++, JS, HTML & CSS, LaTeX, Svelte; English - 760/800 SAT Score <br>
+            <strong>Dev Tools:</strong> Wireshark, Matlab, Github Desktop, VS Code, Linux (Arch-craft), Cloudflare Pages, OnShape
+          </p>
         </div>
       </div>
+    
+    
+    
 
     <!-- End Right Column -->
     </div>
