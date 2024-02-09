@@ -34,13 +34,11 @@ declare module '$env/static/private' {
 	export const COLORTERM: string;
 	export const HYPRLAND_CMD: string;
 	export const npm_config_cache: string;
-	export const npm_package_dev_optional: string;
 	export const LESS: string;
 	export const XDG_SESSION_PATH: string;
 	export const TERM_PROGRAM_VERSION: string;
 	export const WLR_NO_HARDWARE_CURSORS: string;
 	export const XDG_BACKEND: string;
-	export const npm_package_integrity: string;
 	export const QT_WAYLAND_DISABLE_WINDOWDECORATION: string;
 	export const NODE: string;
 	export const LC_ADDRESS: string;
@@ -60,14 +58,12 @@ declare module '$env/static/private' {
 	export const XDG_SESSION_DESKTOP: string;
 	export const QT_QPA_PLATFORMTHEME: string;
 	export const XDG_SESSION_TYPE: string;
-	export const npm_package_dev: string;
 	export const npm_config_init_module: string;
 	export const _: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const MOTD_SHOWN: string;
 	export const VSCODE_INJECTION: string;
 	export const HOME: string;
-	export const npm_package_peer: string;
 	export const LC_PAPER: string;
 	export const LANG: string;
 	export const __GL_VRR_ALLOWED: string;
@@ -76,7 +72,6 @@ declare module '$env/static/private' {
 	export const XDG_CURRENT_DESKTOP: string;
 	export const npm_package_version: string;
 	export const WAYLAND_DISPLAY: string;
-	export const npm_package_resolved: string;
 	export const GIT_ASKPASS: string;
 	export const XDG_SEAT_PATH: string;
 	export const INIT_CWD: string;
@@ -84,7 +79,6 @@ declare module '$env/static/private' {
 	export const QT_QPA_PLATFORM: string;
 	export const npm_lifecycle_script: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
-	export const npm_package_optional: string;
 	export const npm_config_npm_version: string;
 	export const XDG_SESSION_CLASS: string;
 	export const TERM: string;
@@ -130,8 +124,8 @@ declare module '$env/static/private' {
 	export const npm_node_execpath: string;
 	export const LC_NUMERIC: string;
 	export const OLDPWD: string;
-	export const npm_package_engines_node: string;
 	export const TERM_PROGRAM: string;
+	export const NODE_ENV: string;
 }
 
 /**
@@ -169,13 +163,11 @@ declare module '$env/dynamic/private' {
 		COLORTERM: string;
 		HYPRLAND_CMD: string;
 		npm_config_cache: string;
-		npm_package_dev_optional: string;
 		LESS: string;
 		XDG_SESSION_PATH: string;
 		TERM_PROGRAM_VERSION: string;
 		WLR_NO_HARDWARE_CURSORS: string;
 		XDG_BACKEND: string;
-		npm_package_integrity: string;
 		QT_WAYLAND_DISABLE_WINDOWDECORATION: string;
 		NODE: string;
 		LC_ADDRESS: string;
@@ -195,14 +187,12 @@ declare module '$env/dynamic/private' {
 		XDG_SESSION_DESKTOP: string;
 		QT_QPA_PLATFORMTHEME: string;
 		XDG_SESSION_TYPE: string;
-		npm_package_dev: string;
 		npm_config_init_module: string;
 		_: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		MOTD_SHOWN: string;
 		VSCODE_INJECTION: string;
 		HOME: string;
-		npm_package_peer: string;
 		LC_PAPER: string;
 		LANG: string;
 		__GL_VRR_ALLOWED: string;
@@ -211,7 +201,6 @@ declare module '$env/dynamic/private' {
 		XDG_CURRENT_DESKTOP: string;
 		npm_package_version: string;
 		WAYLAND_DISPLAY: string;
-		npm_package_resolved: string;
 		GIT_ASKPASS: string;
 		XDG_SEAT_PATH: string;
 		INIT_CWD: string;
@@ -219,7 +208,6 @@ declare module '$env/dynamic/private' {
 		QT_QPA_PLATFORM: string;
 		npm_lifecycle_script: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
-		npm_package_optional: string;
 		npm_config_npm_version: string;
 		XDG_SESSION_CLASS: string;
 		TERM: string;
@@ -265,8 +253,8 @@ declare module '$env/dynamic/private' {
 		npm_node_execpath: string;
 		LC_NUMERIC: string;
 		OLDPWD: string;
-		npm_package_engines_node: string;
 		TERM_PROGRAM: string;
+		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
