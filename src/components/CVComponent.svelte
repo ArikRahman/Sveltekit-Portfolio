@@ -27,7 +27,7 @@ body{
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
           <!-- <img src="https://media.licdn.com/dms/image/D5603AQHVU1tWJOdjcg/profile-displayphoto-shrink_200_200/0/1692420336007?e=1712793600&v=beta&t=DD1Vqswkl3AHqghGN6JsCO5bgEwru1xJWo_R9uRXt5Q" style="width:90%" alt="Avatar"> -->
-          <img src="https://media.licdn.com/dms/image/D5603AQHVU1tWJOdjcg/profile-displayphoto-shrink_200_200/0/1692420336007?e=1712793600&v=beta&t=DD1Vqswkl3AHqghGN6JsCO5bgEwru1xJWo_R9uRXt5Q" style="width:90%; border-radius: 50%; object-fit: cover; object-position: top; height: auto; display: block;" alt="Avatar">
+          <img src="/oppenheimerxreveille.jpg" style="width:90%; border-radius: 50%; object-fit: cover; object-position: top; height: auto; display: block;" alt="Avatar">
 
           <div class="w3-display-bottomleft w3-container w3-text-black">
             <!-- <h2>Jane Doe</h2> -->
